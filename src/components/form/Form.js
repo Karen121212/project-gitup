@@ -1,17 +1,7 @@
-import { useState } from "react";
-
 function Form() {
-  const [texts, setText] = useState("");
-
   return (
     <form>
-      <input
-        type="text"
-        value={texts}
-        onChange={(e) => {
-          setText(e.target.value);
-        }}
-      />
+      <input type="text" />
       <button>Add</button>
     </form>
   );
