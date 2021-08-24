@@ -1,0 +1,6 @@
+.but {
+  background-color: rgb(156, 201, 231);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  font-size: 120%;
+}
